@@ -29,6 +29,12 @@ $(document).ready(function () {
             scrollTop:$('#team').offset().top
         },1000)
     });
+    $('.click-top').click(function (e) { 
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop:0
+        },1000)
+    });
     var check=true
     if(check===true){
         $('.drop').click(function (e) { 

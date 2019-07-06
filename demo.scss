@@ -45,7 +45,7 @@ body,html{
 header{
     z-index: 10;
     box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
-    .content{
+    .container{
         width: 1300px;
         margin: 0 auto;
         .logo{
@@ -85,12 +85,11 @@ header{
                         z-index: 10;
                         display: none;
                         position: absolute;
-                        top: 30px;
+                        top: 25px;
                         left: -10px;
-                        // transform: translateX(-50%);
                         background: #000;
                         width: 200px;
-                        padding: 20px;
+                        padding: 15px;
                         border-radius: 5px;
                         ul{
                             li{
@@ -143,11 +142,11 @@ header{
         }
     }
 }
-.container1{
+.banner{
     width: 1100px;
     height: 100vh;
     margin: 0 auto;
-    .content{
+    .container{
         .left{
             margin: 0 auto;
             .con-left{
@@ -189,10 +188,10 @@ header{
         }
     }
 }
-.container2{
+.whatwedo{
     background: #f8f9fa;
     width: 100vw;
-    >.content{
+    >.container{
         width: 1100px;
         height: 100vh;
         margin: 0 auto;
@@ -233,9 +232,9 @@ header{
         }
     }
 }
-.container3{
+.middle{
     height: 100vh;
-    .content{
+    .container{
         width: 1100px;
         margin: 0 auto;
         .left{
@@ -288,11 +287,11 @@ header{
         }
     }
 }
-.container4{
+.services{
     background: #f8f9fa;
     text-align: center;
     height: 100vh;
-    .content{
+    .container{
         .top{
             margin: 0 auto;
             margin-bottom: 80px;
@@ -347,8 +346,8 @@ header{
         }
     }
 }
-.container5{
-    .content{
+.statistics{
+    .container{
         width: 1100px;
         height: 100vh;
         margin: 0 auto;
@@ -392,10 +391,10 @@ header{
         }
     }
 }
-.container6{
+.partners{
     text-align: center;
     height: 450px;
-    .content{
+    .container{
         width: 1100px;
         margin: 0 auto;
         .top{
@@ -433,10 +432,10 @@ header{
         }
     }
 }
-.container7{
+.sub{
     background: #f7f7f7;
     text-align: center;
-    .content1{
+    .container{
         height: 450px;
         .top{
             .con-top{
@@ -512,7 +511,7 @@ header{
                 font-size: 17px;
                 letter-spacing: 1px;
                 color: #333;
-                span{
+                a{
                     font-weight: 800;
                 }
             }
@@ -526,7 +525,7 @@ header{
         }
     }
 }
-.container8{
+.about-banner{
     height: 100vh;
     .top{
         margin-top: 100px;
@@ -538,7 +537,7 @@ header{
             }
         }
     }
-    .content{
+    .container{
         width: 1100px;
         margin: 0 auto;
         .left{
@@ -583,10 +582,10 @@ header{
         }
     }
 }
-.container9{
+.why{
     background: #f7f7f7;
     height: 480px;
-    >.content{
+    >.container{
         width: 1100px;
         margin: 0 auto;
         width: 1100px;
@@ -613,11 +612,11 @@ header{
         }
     }
 }
-.container10{
+.team{
     background: #f8f9fa;
     text-align: center;
     height: 100vh;
-    .content{
+    .container{
         .top{
             margin: 0 auto;
             margin-bottom: 80px;
@@ -678,7 +677,7 @@ header{
         }
     }
 }
-.container11{
+.price{
     z-index: -1;
     .top{
         margin-top: 100px;
@@ -690,7 +689,7 @@ header{
             }
         }
     }
-    .content{
+    .container{
         width: 1100px;
         height: 100vh;
         margin: 0 auto;
@@ -752,7 +751,7 @@ header{
         }
     }
 }
-.container12{
+.con-banner{
     height: 800px;
     .top{
         margin: 80px 0px;
@@ -764,7 +763,7 @@ header{
             }
         }
     }
-    .content{
+    .container{
         margin: 0 auto;
         width: 1100px;
         .left{
@@ -816,7 +815,7 @@ header{
         }
     }
 }
-.container13{
+.map{
     height: 450px;
     width: 1300px;
     margin: 0 auto;
@@ -826,7 +825,7 @@ header{
         height: 400px;
     }
 }
-.container14{
+.faq-banner{
     height: 100vh;
     .top{
         margin: 100px 0px 50px 0px;
@@ -838,7 +837,7 @@ header{
             }
         }
     }
-    .content{
+    .container{
         width: 1100px;
         margin: 0 auto;
         .right{
@@ -880,7 +879,7 @@ header{
         }
     }
 }
-.container15{
+.show{
     .drop{
         width: 1100px;
         .down{
@@ -905,6 +904,42 @@ header{
                 margin: 20px;
                 font-size: 15px;
                 padding-bottom: 20px;
+            }
+        }
+    }
+}
+.opp{
+    .top{
+        margin: 80px;
+        a{
+            color: #202428;
+            font-weight: 800;
+            span{
+                font-weight: 100;
+            }
+        }
+    }
+    .container{
+        .col{
+            height: 600px;
+            text-align: center;
+            p{
+                margin: 10px 0px 70px 0px;
+                color: #51585f;
+                letter-spacing: 2px;
+                max-width: 800px;
+            }
+            a{
+                background: #05b993;
+                color: white;
+                font-size: 15px;
+                padding: 15px 30px;
+                letter-spacing: 1px;
+                border: none;
+                border-radius: 5px;
+                &:hover{
+                    background: #07daac;
+                }
             }
         }
     }

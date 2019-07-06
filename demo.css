@@ -72,96 +72,96 @@ header {
           box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, 0.1);
 }
 
-header .content {
+header .container {
   width: 1300px;
   margin: 0 auto;
 }
 
-header .content .logo {
+header .container .logo {
   color: #705ecf;
   font-size: 35px;
 }
 
-header .content .logo h1 {
+header .container .logo h1 {
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 35px;
 }
 
-header .content .navbar > ul {
+header .container .navbar > ul {
   width: 480px;
 }
 
-header .content .navbar > ul li {
+header .container .navbar > ul li {
   position: relative;
 }
 
-header .content .navbar > ul li:hover .dropdown {
+header .container .navbar > ul li:hover .dropdown {
   display: block;
 }
 
-header .content .navbar > ul li a {
+header .container .navbar > ul li a {
   color: #202428;
   font-size: 15px;
   letter-spacing: 1px;
 }
 
-header .content .navbar > ul li a:hover {
+header .container .navbar > ul li a:hover {
   color: #05b993;
 }
 
-header .content .navbar > ul li a:hover i {
+header .container .navbar > ul li a:hover i {
   color: #05b993;
 }
 
-header .content .navbar > ul li .dropdown {
+header .container .navbar > ul li .dropdown {
   z-index: 10;
   display: none;
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: -10px;
   background: #000;
   width: 200px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
 }
 
-header .content .navbar > ul li .dropdown ul li {
+header .container .navbar > ul li .dropdown ul li {
   padding: 5px;
 }
 
-header .content .navbar > ul li .dropdown ul li a {
+header .container .navbar > ul li .dropdown ul li a {
   color: white;
 }
 
-header .content .navbar > ul li .dropdown ul li a:hover {
+header .container .navbar > ul li .dropdown ul li a:hover {
   color: #05b993;
 }
 
-header .content .search .input input, header .content .search .input button {
+header .container .search .input input, header .container .search .input button {
   border: none;
   padding: 14px;
   font-size: 12px;
 }
 
-header .content .search .input input {
+header .container .search .input input {
   width: 200px;
   background: #f7f7f7;
   color: #000;
   letter-spacing: 2px;
 }
 
-header .content .search .input button {
+header .container .search .input button {
   margin-left: -5px;
   background: #05b993;
   color: white;
 }
 
-header .content .search .input button:hover {
+header .container .search .input button:hover {
   background: #07daac;
 }
 
-header .content .search .cloud {
+header .container .search .cloud {
   background: #705ecf;
   font-size: 12px;
   color: white;
@@ -170,33 +170,33 @@ header .content .search .cloud {
   margin: 20px;
 }
 
-header .content .search .cloud:hover {
+header .container .search .cloud:hover {
   background: #7b65e6;
 }
 
-.container1 {
+.banner {
   width: 1100px;
   height: 100vh;
   margin: 0 auto;
 }
 
-.container1 .content .left {
+.banner .container .left {
   margin: 0 auto;
 }
 
-.container1 .content .left .con-left h1 {
+.banner .container .left .con-left h1 {
   font-size: 55px;
   font-weight: 900;
   color: #000;
 }
 
-.container1 .content .left .con-left span {
+.banner .container .left .con-left span {
   font-size: 55px;
   color: #05b993;
   font-weight: 900;
 }
 
-.container1 .content .left .con-left p {
+.banner .container .left .con-left p {
   margin-top: 20px;
   color: #51585f;
   width: 500px;
@@ -204,7 +204,7 @@ header .content .search .cloud:hover {
   letter-spacing: 2px;
 }
 
-.container1 .content .left .con-left button {
+.banner .container .left .con-left button {
   margin-top: 50px;
   background: #05b993;
   color: white;
@@ -214,48 +214,48 @@ header .content .search .cloud:hover {
   border-radius: 5px;
 }
 
-.container1 .content .left .con-left button:hover {
+.banner .container .left .con-left button:hover {
   background: #07daac;
 }
 
-.container1 .content .right img {
+.banner .container .right img {
   width: 550px;
 }
 
-.container2 {
+.whatwedo {
   background: #f8f9fa;
   width: 100vw;
 }
 
-.container2 > .content {
+.whatwedo > .container {
   width: 1100px;
   height: 100vh;
   margin: 0 auto;
 }
 
-.container2 > .content .dolor, .container2 > .content .conso, .container2 > .content .adip {
+.whatwedo > .container .dolor, .whatwedo > .container .conso, .whatwedo > .container .adip {
   background: white;
   width: 350px;
   -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
           box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
 }
 
-.container2 > .content .dolor .content, .container2 > .content .conso .content, .container2 > .content .adip .content {
+.whatwedo > .container .dolor .content, .whatwedo > .container .conso .content, .whatwedo > .container .adip .content {
   text-align: center;
   height: 450px;
 }
 
-.container2 > .content .dolor .content .con-con img, .container2 > .content .conso .content .con-con img, .container2 > .content .adip .content .con-con img {
+.whatwedo > .container .dolor .content .con-con img, .whatwedo > .container .conso .content .con-con img, .whatwedo > .container .adip .content .con-con img {
   border-radius: 50%;
 }
 
-.container2 > .content .dolor .content .con-con h4, .container2 > .content .conso .content .con-con h4, .container2 > .content .adip .content .con-con h4 {
+.whatwedo > .container .dolor .content .con-con h4, .whatwedo > .container .conso .content .con-con h4, .whatwedo > .container .adip .content .con-con h4 {
   margin: 20px;
   font-size: 25px;
   letter-spacing: 1px;
 }
 
-.container2 > .content .dolor .content .con-con p, .container2 > .content .conso .content .con-con p, .container2 > .content .adip .content .con-con p {
+.whatwedo > .container .dolor .content .con-con p, .whatwedo > .container .conso .content .con-con p, .whatwedo > .container .adip .content .con-con p {
   margin: 20px 0px 40px 0px;
   text-align: center;
   color: #51585f;
@@ -265,39 +265,39 @@ header .content .search .cloud:hover {
   letter-spacing: 1px;
 }
 
-.container2 > .content .dolor .content .con-con a, .container2 > .content .conso .content .con-con a, .container2 > .content .adip .content .con-con a {
+.whatwedo > .container .dolor .content .con-con a, .whatwedo > .container .conso .content .con-con a, .whatwedo > .container .adip .content .con-con a {
   font-weight: 900;
   color: #705ecf;
 }
 
-.container2 > .content .dolor .content .con-con a:hover, .container2 > .content .conso .content .con-con a:hover, .container2 > .content .adip .content .con-con a:hover {
+.whatwedo > .container .dolor .content .con-con a:hover, .whatwedo > .container .conso .content .con-con a:hover, .whatwedo > .container .adip .content .con-con a:hover {
   color: #816ceb;
 }
 
-.container3 {
+.middle {
   height: 100vh;
 }
 
-.container3 .content {
+.middle .container {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container3 .content .left {
+.middle .container .left {
   height: 650px;
 }
 
-.container3 .content .left .con-left span {
+.middle .container .left .con-left span {
   color: #05b993;
 }
 
-.container3 .content .left .con-left h1 {
+.middle .container .left .con-left h1 {
   font-size: 35px;
   font-weight: 700;
   width: 400px;
 }
 
-.container3 .content .left .con-left p {
+.middle .container .left .con-left p {
   width: 500px;
   color: #51585f;
   font-size: 15px;
@@ -305,18 +305,18 @@ header .content .search .cloud:hover {
   margin: 20px 0px;
 }
 
-.container3 .content .left .con-left ul {
+.middle .container .left .con-left ul {
   margin: 0px 15px 50px 15px;
 }
 
-.container3 .content .left .con-left ul li {
+.middle .container .left .con-left ul li {
   color: #333;
   letter-spacing: 2px;
   padding: 5px 0px;
   list-style: disc;
 }
 
-.container3 .content .left .con-left a {
+.middle .container .left .con-left a {
   background: #05b993;
   color: white;
   font-size: 15px;
@@ -325,32 +325,32 @@ header .content .search .cloud:hover {
   border-radius: 5px;
 }
 
-.container3 .content .left .con-left a:hover {
+.middle .container .left .con-left a:hover {
   background: #07daac;
 }
 
-.container3 .content .right .con-right img {
+.middle .container .right .con-right img {
   width: 550px;
 }
 
-.container4 {
+.services {
   background: #f8f9fa;
   text-align: center;
   height: 100vh;
 }
 
-.container4 .content .top {
+.services .container .top {
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
-.container4 .content .top h2 {
+.services .container .top h2 {
   color: #111;
   font-size: 35px;
   font-weight: 900 !important;
 }
 
-.container4 .content .top p {
+.services .container .top p {
   margin: 0 auto;
   width: 700px;
   color: #51585f;
@@ -358,12 +358,12 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container4 .content .bot {
+.services .container .bot {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container4 .content .bot .grown, .container4 .content .bot .plan, .container4 .content .bot .ser {
+.services .container .bot .grown, .services .container .bot .plan, .services .container .bot .ser {
   -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
           box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
   background: white;
@@ -371,11 +371,11 @@ header .content .search .cloud:hover {
   height: 350px;
 }
 
-.container4 .content .bot .grown .con-con, .container4 .content .bot .plan .con-con, .container4 .content .bot .ser .con-con {
+.services .container .bot .grown .con-con, .services .container .bot .plan .con-con, .services .container .bot .ser .con-con {
   margin-top: 50px;
 }
 
-.container4 .content .bot .grown .con-con i, .container4 .content .bot .plan .con-con i, .container4 .content .bot .ser .con-con i {
+.services .container .bot .grown .con-con i, .services .container .bot .plan .con-con i, .services .container .bot .ser .con-con i {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,12 +393,12 @@ header .content .search .cloud:hover {
   border-radius: 50%;
 }
 
-.container4 .content .bot .grown .con-con h4, .container4 .content .bot .plan .con-con h4, .container4 .content .bot .ser .con-con h4 {
+.services .container .bot .grown .con-con h4, .services .container .bot .plan .con-con h4, .services .container .bot .ser .con-con h4 {
   font-size: 22px;
   margin: 20px 0px;
 }
 
-.container4 .content .bot .grown .con-con p, .container4 .content .bot .plan .con-con p, .container4 .content .bot .ser .con-con p {
+.services .container .bot .grown .con-con p, .services .container .bot .plan .con-con p, .services .container .bot .ser .con-con p {
   margin-top: 20px;
   margin: 0 auto;
   color: #51585f;
@@ -407,26 +407,26 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container5 .content {
+.statistics .container {
   width: 1100px;
   height: 100vh;
   margin: 0 auto;
 }
 
-.container5 .content .left .con-left img {
+.statistics .container .left .con-left img {
   width: 500px;
 }
 
-.container5 .content .right {
+.statistics .container .right {
   width: 600px;
 }
 
-.container5 .content .right .con-right h4 {
+.statistics .container .right .con-right h4 {
   font-size: 35px;
   font-weight: 700;
 }
 
-.container5 .content .right .con-right h5 {
+.statistics .container .right .con-right h5 {
   width: 400px;
   padding: 20px 0px;
   font-size: 19px;
@@ -435,7 +435,7 @@ header .content .search .cloud:hover {
   letter-spacing: 2px;
 }
 
-.container5 .content .right .con-right p {
+.statistics .container .right .con-right p {
   font-size: 15px;
   color: #51585f;
   letter-spacing: 1px;
@@ -443,33 +443,33 @@ header .content .search .cloud:hover {
   margin-bottom: 40px;
 }
 
-.container5 .content .right .con-right .top .num, .container5 .content .right .con-right .bot .num {
+.statistics .container .right .con-right .top .num, .statistics .container .right .con-right .bot .num {
   width: 200px;
   text-align: left;
 }
 
-.container6 {
+.partners {
   text-align: center;
   height: 450px;
 }
 
-.container6 .content {
+.partners .container {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container6 .content .top {
+.partners .container .top {
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
-.container6 .content .top h2 {
+.partners .container .top h2 {
   color: #111;
   font-size: 35px;
   font-weight: 900 !important;
 }
 
-.container6 .content .top p {
+.partners .container .top p {
   margin: 0 auto;
   width: 700px;
   color: #51585f;
@@ -477,11 +477,11 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container6 .content .bot .icon .con-icon i {
+.partners .container .bot .icon .con-icon i {
   font-size: 45px;
 }
 
-.container6 .content .bot .icon .con-icon p {
+.partners .container .bot .icon .con-icon p {
   margin: 15px;
   letter-spacing: 1px;
   color: #000;
@@ -490,21 +490,21 @@ header .content .search .cloud:hover {
   text-transform: uppercase;
 }
 
-.container7 {
+.sub {
   background: #f7f7f7;
   text-align: center;
 }
 
-.container7 .content1 {
+.sub .container {
   height: 450px;
 }
 
-.container7 .content1 .top .con-top {
+.sub .container .top .con-top {
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
-.container7 .content1 .top .con-top i {
+.sub .container .top .con-top i {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -523,14 +523,14 @@ header .content .search .cloud:hover {
   border-radius: 50%;
 }
 
-.container7 .content1 .top .con-top h2 {
+.sub .container .top .con-top h2 {
   margin-top: 20px;
   color: #111;
   font-size: 35px;
   font-weight: 900 !important;
 }
 
-.container7 .content1 .top .con-top p {
+.sub .container .top .con-top p {
   margin: 0 auto;
   width: 700px;
   color: #51585f;
@@ -538,7 +538,7 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container7 .content1 .input input {
+.sub .container .input input {
   width: 550px;
   border: none;
   padding: 16px;
@@ -550,7 +550,7 @@ header .content .search .cloud:hover {
           box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
 }
 
-.container7 .content1 .input button {
+.sub .container .input button {
   background: #705ecf;
   font-size: 15px;
   padding: 16px 80px;
@@ -560,82 +560,82 @@ header .content .search .cloud:hover {
   letter-spacing: 1px;
 }
 
-.container7 .content1 .input button:hover {
+.sub .container .input button:hover {
   background: #816ceb;
 }
 
-.container7 .content2 {
+.sub .content2 {
   border-top: 1px solid #dee2e6 !important;
   width: 100%;
   color: #705ecf;
 }
 
-.container7 .content2 .bot {
+.sub .content2 .bot {
   width: 1300px;
   height: 80px;
 }
 
-.container7 .content2 .bot .left {
+.sub .content2 .bot .left {
   width: 120px;
 }
 
-.container7 .content2 .bot .left > i {
+.sub .content2 .bot .left > i {
   cursor: pointer;
 }
 
-.container7 .content2 .bot .mid {
+.sub .content2 .bot .mid {
   font-size: 17px;
   letter-spacing: 1px;
   color: #333;
 }
 
-.container7 .content2 .bot .mid span {
+.sub .content2 .bot .mid a {
   font-weight: 800;
 }
 
-.container7 .content2 .bot .right > i {
+.sub .content2 .bot .right > i {
   cursor: pointer;
   font-size: 25px;
   color: #05b993;
 }
 
-.container8 {
+.about-banner {
   height: 100vh;
 }
 
-.container8 .top {
+.about-banner .top {
   margin-top: 100px;
 }
 
-.container8 .top a {
+.about-banner .top a {
   color: #202428;
   font-weight: 800;
 }
 
-.container8 .top a span {
+.about-banner .top a span {
   font-weight: 100;
 }
 
-.container8 .content {
+.about-banner .container {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container8 .content .left {
+.about-banner .container .left {
   height: 650px;
 }
 
-.container8 .content .left .con-left > span {
+.about-banner .container .left .con-left > span {
   color: #05b993;
 }
 
-.container8 .content .left .con-left h1 {
+.about-banner .container .left .con-left h1 {
   font-size: 35px;
   font-weight: 700;
   width: 400px;
 }
 
-.container8 .content .left .con-left p {
+.about-banner .container .left .con-left p {
   width: 450px;
   color: #51585f;
   font-size: 15px;
@@ -643,11 +643,11 @@ header .content .search .cloud:hover {
   margin: 20px 0px;
 }
 
-.container8 .content .left .con-left .txt {
+.about-banner .container .left .con-left .txt {
   margin-bottom: 60px;
 }
 
-.container8 .content .left .con-left a {
+.about-banner .container .left .con-left a {
   background: #05b993;
   color: white;
   font-size: 15px;
@@ -656,64 +656,64 @@ header .content .search .cloud:hover {
   border-radius: 5px;
 }
 
-.container8 .content .left .con-left a:hover {
+.about-banner .container .left .con-left a:hover {
   background: #07daac;
 }
 
-.container8 .content .right img {
+.about-banner .container .right img {
   width: 550px;
 }
 
-.container9 {
+.why {
   background: #f7f7f7;
   height: 480px;
 }
 
-.container9 > .content {
+.why > .container {
   width: 1100px;
   margin: 0 auto;
   width: 1100px;
 }
 
-.container9 > .content .num .dolor {
+.why > .container .num .dolor {
   height: 200px;
   width: 300px;
 }
 
-.container9 > .content .num .dolor .content i {
+.why > .container .num .dolor .content i {
   font-size: 35px;
   margin: 30px;
 }
 
-.container9 > .content .num .dolor .content h4 {
+.why > .container .num .dolor .content h4 {
   font-size: 25px;
 }
 
-.container9 > .content .num .dolor .content p {
+.why > .container .num .dolor .content p {
   width: 250px;
   color: #51585f;
   font-size: 15px;
   letter-spacing: 1px;
 }
 
-.container10 {
+.team {
   background: #f8f9fa;
   text-align: center;
   height: 100vh;
 }
 
-.container10 .content .top {
+.team .container .top {
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
-.container10 .content .top h2 {
+.team .container .top h2 {
   color: #111;
   font-size: 35px;
   font-weight: 900 !important;
 }
 
-.container10 .content .top p {
+.team .container .top p {
   margin: 0 auto;
   width: 700px;
   color: #51585f;
@@ -721,12 +721,12 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container10 .content .bot {
+.team .container .bot {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container10 .content .bot .grown, .container10 .content .bot .plan, .container10 .content .bot .ser {
+.team .container .bot .grown, .team .container .bot .plan, .team .container .bot .ser {
   -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
           box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
   background: white;
@@ -734,20 +734,20 @@ header .content .search .cloud:hover {
   height: 300px;
 }
 
-.container10 .content .bot .grown .con-con, .container10 .content .bot .plan .con-con, .container10 .content .bot .ser .con-con {
+.team .container .bot .grown .con-con, .team .container .bot .plan .con-con, .team .container .bot .ser .con-con {
   margin-top: 50px;
 }
 
-.container10 .content .bot .grown .con-con img, .container10 .content .bot .plan .con-con img, .container10 .content .bot .ser .con-con img {
+.team .container .bot .grown .con-con img, .team .container .bot .plan .con-con img, .team .container .bot .ser .con-con img {
   border-radius: 50%;
 }
 
-.container10 .content .bot .grown .con-con h4, .container10 .content .bot .plan .con-con h4, .container10 .content .bot .ser .con-con h4 {
+.team .container .bot .grown .con-con h4, .team .container .bot .plan .con-con h4, .team .container .bot .ser .con-con h4 {
   font-size: 22px;
   margin: 20px 0px;
 }
 
-.container10 .content .bot .grown .con-con p, .container10 .content .bot .plan .con-con p, .container10 .content .bot .ser .con-con p {
+.team .container .bot .grown .con-con p, .team .container .bot .plan .con-con p, .team .container .bot .ser .con-con p {
   margin-top: 20px;
   margin: 0 auto;
   color: #51585f;
@@ -756,43 +756,43 @@ header .content .search .cloud:hover {
   line-height: 28px;
 }
 
-.container10 .content .bot .grown .con-con ul, .container10 .content .bot .plan .con-con ul, .container10 .content .bot .ser .con-con ul {
+.team .container .bot .grown .con-con ul, .team .container .bot .plan .con-con ul, .team .container .bot .ser .con-con ul {
   margin: 0 auto;
   width: 90px;
 }
 
-.container10 .content .bot .grown .con-con ul li a i, .container10 .content .bot .plan .con-con ul li a i, .container10 .content .bot .ser .con-con ul li a i {
+.team .container .bot .grown .con-con ul li a i, .team .container .bot .plan .con-con ul li a i, .team .container .bot .ser .con-con ul li a i {
   color: #333;
 }
 
-.container10 .content .bot .grown .con-con ul li a i:hover, .container10 .content .bot .plan .con-con ul li a i:hover, .container10 .content .bot .ser .con-con ul li a i:hover {
+.team .container .bot .grown .con-con ul li a i:hover, .team .container .bot .plan .con-con ul li a i:hover, .team .container .bot .ser .con-con ul li a i:hover {
   color: #474646;
 }
 
-.container11 {
+.price {
   z-index: -1;
 }
 
-.container11 .top {
+.price .top {
   margin-top: 100px;
 }
 
-.container11 .top a {
+.price .top a {
   color: #202428;
   font-weight: 800;
 }
 
-.container11 .top a span {
+.price .top a span {
   font-weight: 100;
 }
 
-.container11 .content {
+.price .container {
   width: 1100px;
   height: 100vh;
   margin: 0 auto;
 }
 
-.container11 .content .num {
+.price .container .num {
   text-align: center;
   border: 1px solid #dee2e6 !important;
   width: 250px;
@@ -800,12 +800,12 @@ header .content .search .cloud:hover {
   position: relative;
 }
 
-.container11 .content .num:hover {
+.price .container .num:hover {
   -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
           box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
 }
 
-.container11 .content .num .abso {
+.price .container .num .abso {
   position: absolute;
   top: -50px;
   left: 50%;
@@ -829,31 +829,31 @@ header .content .search .cloud:hover {
   border-radius: 50%;
 }
 
-.container11 .content .num .con-num {
+.price .container .num .con-num {
   width: 200px;
   margin: 0 auto;
   margin-top: 70px;
 }
 
-.container11 .content .num .con-num h1 {
+.price .container .num .con-num h1 {
   padding-bottom: 20px;
   border-bottom: 1px solid #dee2e6 !important;
 }
 
-.container11 .content .num .con-num .bot {
+.price .container .num .con-num .bot {
   margin-top: 30px;
 }
 
-.container11 .content .num .con-num .bot ul {
+.price .container .num .con-num .bot ul {
   margin-bottom: 40px;
 }
 
-.container11 .content .num .con-num .bot ul li {
+.price .container .num .con-num .bot ul li {
   color: #656161;
   padding: 5px 0px;
 }
 
-.container11 .content .num .con-num .bot a {
+.price .container .num .con-num .bot a {
   background: #05b993;
   color: white;
   font-size: 15px;
@@ -862,41 +862,41 @@ header .content .search .cloud:hover {
   border-radius: 5px;
 }
 
-.container11 .content .num .con-num .bot a:hover {
+.price .container .num .con-num .bot a:hover {
   background: #07daac;
 }
 
-.container12 {
+.con-banner {
   height: 800px;
 }
 
-.container12 .top {
+.con-banner .top {
   margin: 80px 0px;
 }
 
-.container12 .top a {
+.con-banner .top a {
   color: #202428;
   font-weight: 800;
 }
 
-.container12 .top a span {
+.con-banner .top a span {
   font-weight: 100;
 }
 
-.container12 .content {
+.con-banner .container {
   margin: 0 auto;
   width: 1100px;
 }
 
-.container12 .content .left img {
+.con-banner .container .left img {
   width: 550px;
 }
 
-.container12 .content .right form .name, .container12 .content .right form .contact {
+.con-banner .container .right form .name, .con-banner .container .right form .contact {
   width: 550px;
 }
 
-.container12 .content .right form .name label input, .container12 .content .right form .contact label input {
+.con-banner .container .right form .name label input, .con-banner .container .right form .contact label input {
   background: #f7f7f7;
   margin: 20px 0px;
   padding: 15px;
@@ -906,7 +906,7 @@ header .content .search .cloud:hover {
   border-left: #705ecf solid 4px;
 }
 
-.container12 .content .right form .mess label textarea {
+.con-banner .container .right form .mess label textarea {
   background: #f7f7f7;
   margin: 20px 0px;
   font-size: 17px;
@@ -917,7 +917,7 @@ header .content .search .cloud:hover {
   border-left: #705ecf solid 4px;
 }
 
-.container12 .content .right form button {
+.con-banner .container .right form button {
   background: #705ecf;
   color: white;
   font-size: 15px;
@@ -925,55 +925,55 @@ header .content .search .cloud:hover {
   border: none;
 }
 
-.container12 .content .right form button:hover {
+.con-banner .container .right form button:hover {
   background: #816ceb;
 }
 
-.container13 {
+.map {
   height: 450px;
   width: 1300px;
   margin: 0 auto;
 }
 
-.container13 iframe {
+.map iframe {
   width: 100%;
   border: none;
   height: 400px;
 }
 
-.container14 {
+.faq-banner {
   height: 100vh;
 }
 
-.container14 .top {
+.faq-banner .top {
   margin: 100px 0px 50px 0px;
 }
 
-.container14 .top a {
+.faq-banner .top a {
   color: #202428;
   font-weight: 800;
 }
 
-.container14 .top a span {
+.faq-banner .top a span {
   font-weight: 100;
 }
 
-.container14 .content {
+.faq-banner .container {
   width: 1100px;
   margin: 0 auto;
 }
 
-.container14 .content .right {
+.faq-banner .container .right {
   height: 450px;
 }
 
-.container14 .content .right .con-right h2 {
+.faq-banner .container .right .con-right h2 {
   font-size: 35px;
   font-weight: 700;
   width: 400px;
 }
 
-.container14 .content .right .con-right p {
+.faq-banner .container .right .con-right p {
   width: 450px;
   color: #51585f;
   font-size: 15px;
@@ -981,11 +981,11 @@ header .content .search .cloud:hover {
   margin: 20px 0px;
 }
 
-.container14 .content .right .con-right .txt {
+.faq-banner .container .right .con-right .txt {
   margin-bottom: 60px;
 }
 
-.container14 .content .right .con-right a {
+.faq-banner .container .right .con-right a {
   background: #05b993;
   color: white;
   font-size: 15px;
@@ -994,45 +994,84 @@ header .content .search .cloud:hover {
   border-radius: 5px;
 }
 
-.container14 .content .right .con-right a:hover {
+.faq-banner .container .right .con-right a:hover {
   background: #07daac;
 }
 
-.container14 .content .left img {
+.faq-banner .container .left img {
   width: 550px;
 }
 
-.container15 .drop {
+.show .drop {
   width: 1100px;
 }
 
-.container15 .drop .down {
+.show .drop .down {
   cursor: pointer;
   padding: 20px;
   background: #f7f7f7;
 }
 
-.container15 .drop .down p, .container15 .drop .down i {
+.show .drop .down p, .show .drop .down i {
   font-size: 20px;
 }
 
-.container15 .drop .txt {
+.show .drop .txt {
   display: none;
   padding-top: 20px;
   -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
-.container15 .drop .txt h3 {
+.show .drop .txt h3 {
   color: #705ecf;
   margin: 20px;
 }
 
-.container15 .drop .txt p {
+.show .drop .txt p {
   color: #51585f;
   letter-spacing: 1px;
   margin: 20px;
   font-size: 15px;
   padding-bottom: 20px;
+}
+
+.opp .top {
+  margin: 80px;
+}
+
+.opp .top a {
+  color: #202428;
+  font-weight: 800;
+}
+
+.opp .top a span {
+  font-weight: 100;
+}
+
+.opp .container .col {
+  height: 600px;
+  text-align: center;
+}
+
+.opp .container .col p {
+  margin: 10px 0px 70px 0px;
+  color: #51585f;
+  letter-spacing: 2px;
+  max-width: 800px;
+}
+
+.opp .container .col a {
+  background: #05b993;
+  color: white;
+  font-size: 15px;
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+}
+
+.opp .container .col a:hover {
+  background: #07daac;
 }
 /*# sourceMappingURL=demo.css.map */

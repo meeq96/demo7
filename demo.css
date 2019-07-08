@@ -197,15 +197,14 @@ header .container .search .cloud:hover {
 }
 
 .banner .container .left .con-left p {
-  margin-top: 20px;
+  margin: 20px 0px 50px 0px;
   color: #51585f;
   width: 500px;
   font-size: 15px;
   letter-spacing: 2px;
 }
 
-.banner .container .left .con-left button {
-  margin-top: 50px;
+.banner .container .left .con-left a {
   background: #05b993;
   color: white;
   font-size: 15px;
@@ -214,7 +213,7 @@ header .container .search .cloud:hover {
   border-radius: 5px;
 }
 
-.banner .container .left .con-left button:hover {
+.banner .container .left .con-left a:hover {
   background: #07daac;
 }
 
@@ -272,6 +271,11 @@ header .container .search .cloud:hover {
 
 .whatwedo > .container .dolor .content .con-con a:hover, .whatwedo > .container .conso .content .con-con a:hover, .whatwedo > .container .adip .content .con-con a:hover {
   color: #816ceb;
+}
+
+.whatwedo > .container .dolor .content .con-con a:focus, .whatwedo > .container .conso .content .con-con a:focus, .whatwedo > .container .adip .content .con-con a:focus {
+  padding: 10px;
+  border: rgba(0, 123, 255, 0.25) solid 2px;
 }
 
 .middle {
@@ -1002,36 +1006,41 @@ header .container .search .cloud:hover {
   width: 550px;
 }
 
-.show .drop {
-  width: 1100px;
+.show .container {
+  margin-bottom: 100px;
 }
 
-.show .drop .down {
+.show .container .drop1, .show .container .drop2, .show .container .drop3, .show .container .drop4 {
+  width: 1100px;
+  margin: 20px;
+}
+
+.show .container .drop1 .down, .show .container .drop2 .down, .show .container .drop3 .down, .show .container .drop4 .down {
   cursor: pointer;
   padding: 20px;
   background: #f7f7f7;
 }
 
-.show .drop .down p, .show .drop .down i {
+.show .container .drop1 .down p, .show .container .drop1 .down i, .show .container .drop2 .down p, .show .container .drop2 .down i, .show .container .drop3 .down p, .show .container .drop3 .down i, .show .container .drop4 .down p, .show .container .drop4 .down i {
   font-size: 20px;
 }
 
-.show .drop .txt {
+.show .container .drop1 .txt1, .show .container .drop1 .txt2, .show .container .drop1 .txt3, .show .container .drop1 .txt4, .show .container .drop2 .txt1, .show .container .drop2 .txt2, .show .container .drop2 .txt3, .show .container .drop2 .txt4, .show .container .drop3 .txt1, .show .container .drop3 .txt2, .show .container .drop3 .txt3, .show .container .drop3 .txt4, .show .container .drop4 .txt1, .show .container .drop4 .txt2, .show .container .drop4 .txt3, .show .container .drop4 .txt4 {
   display: none;
   padding-top: 20px;
   -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
-.show .drop .txt h3 {
+.show .container .drop1 .txt1 h3, .show .container .drop1 .txt2 h3, .show .container .drop1 .txt3 h3, .show .container .drop1 .txt4 h3, .show .container .drop2 .txt1 h3, .show .container .drop2 .txt2 h3, .show .container .drop2 .txt3 h3, .show .container .drop2 .txt4 h3, .show .container .drop3 .txt1 h3, .show .container .drop3 .txt2 h3, .show .container .drop3 .txt3 h3, .show .container .drop3 .txt4 h3, .show .container .drop4 .txt1 h3, .show .container .drop4 .txt2 h3, .show .container .drop4 .txt3 h3, .show .container .drop4 .txt4 h3 {
   color: #705ecf;
   margin: 20px;
 }
 
-.show .drop .txt p {
+.show .container .drop1 .txt1 p, .show .container .drop1 .txt2 p, .show .container .drop1 .txt3 p, .show .container .drop1 .txt4 p, .show .container .drop2 .txt1 p, .show .container .drop2 .txt2 p, .show .container .drop2 .txt3 p, .show .container .drop2 .txt4 p, .show .container .drop3 .txt1 p, .show .container .drop3 .txt2 p, .show .container .drop3 .txt3 p, .show .container .drop3 .txt4 p, .show .container .drop4 .txt1 p, .show .container .drop4 .txt2 p, .show .container .drop4 .txt3 p, .show .container .drop4 .txt4 p {
   color: #51585f;
   letter-spacing: 1px;
-  margin: 20px;
+  margin: 0px 20px;
   font-size: 15px;
   padding-bottom: 20px;
 }

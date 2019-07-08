@@ -161,14 +161,13 @@ header{
                     font-weight: 900;
                 }
                 p{
-                    margin-top: 20px;
+                    margin: 20px 0px 50px 0px;
                     color: #51585f;
                     width: 500px;
                     font-size: 15px;
                     letter-spacing: 2px;
                 }
-                button{
-                    margin-top: 50px;
+                a{
                     background: #05b993;
                     color: white;
                     font-size: 15px;
@@ -225,6 +224,10 @@ header{
                         color: #705ecf;
                         &:hover{
                             color: #816ceb;
+                        }
+                        &:focus{
+                            padding: 10px;
+                            border: rgba(0, 123, 255, 0.25) solid 2px;
                         }
                     }
                 }
@@ -880,30 +883,34 @@ header{
     }
 }
 .show{
-    .drop{
-        width: 1100px;
-        .down{
-            cursor: pointer;
-            padding: 20px;
-            background: #f7f7f7;
-            p,i{
-                font-size: 20px;
+    .container{
+        margin-bottom: 100px;
+        .drop1,.drop2,.drop3,.drop4{
+            width: 1100px;
+            margin: 20px;
+            .down{
+                cursor: pointer;
+                padding: 20px;
+                background: #f7f7f7;
+                p,i{
+                    font-size: 20px;
+                }
             }
-        }
-        .txt{
-            display: none;
-            padding-top: 20px;
-            box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
-            h3{
-                color: #705ecf;
-                margin: 20px;
-            }
-            p{
-                color: #51585f;
-                letter-spacing: 1px;
-                margin: 20px;
-                font-size: 15px;
-                padding-bottom: 20px;
+            .txt1,.txt2,.txt3,.txt4{
+                display: none;
+                padding-top: 20px;
+                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+                h3{
+                    color: #705ecf;
+                    margin: 20px;
+                }
+                p{
+                    color: #51585f;
+                    letter-spacing: 1px;
+                    margin:0px 20px;
+                    font-size: 15px;
+                    padding-bottom: 20px;
+                }
             }
         }
     }
